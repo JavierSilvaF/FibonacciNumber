@@ -1,4 +1,5 @@
 package com.valencia.FibonacciNumber;
+import org.junit.Test;
 
 /**
  * Program that calculates the 10th term of the fibonacci sequence.
@@ -7,7 +8,6 @@ package com.valencia.FibonacciNumber;
  * @version 1.0
  * @since 1.0
  */
-
 
 public class App {
 
@@ -27,7 +27,8 @@ public class App {
      * @param n Number of times we're repeating the fibonacci sequence.
      * @return long value of the nth term of the fibonacci sequence
      */
-    public static long FibonacciCalculate(long n) {
+
+    public static int FibonacciCalculate(int n) {
         if (n == 0) {
             return n;
         }
