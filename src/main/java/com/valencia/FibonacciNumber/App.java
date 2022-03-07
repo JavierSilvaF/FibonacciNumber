@@ -1,5 +1,4 @@
 package com.valencia.FibonacciNumber;
-import org.junit.Test;
 
 /**
  * Program that calculates the 10th term of the fibonacci sequence.
