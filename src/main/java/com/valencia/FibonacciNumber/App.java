@@ -1,5 +1,7 @@
 package com.valencia.FibonacciNumber;
 
+import org.junit.Test;
+
 /**
  * Program that calculates the 10th term of the fibonacci sequence.
  * @author Javier Silva
@@ -16,7 +18,7 @@ public class App {
      */
 
     public static void main(String[] args) {
-        int n = 10;
+        int n = 9;
         double result = FibonacciCalculate(n);
 
         System.out.printf("The 10th term of the Fibonnaci Sequence is %2.2f", result);

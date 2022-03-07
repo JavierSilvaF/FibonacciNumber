@@ -15,9 +15,9 @@ public class resultTest {
 	public void test() {
 
 		App result = new App();
-		int output = App.FibonacciCalculate(10);
+		int output = result.FibonacciCalculate(9);
 	
-		assertEquals(55, output);
+		assertEquals(34, output);
 	}
 
 }
